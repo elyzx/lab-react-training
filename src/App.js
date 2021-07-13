@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import IdCard from './components/IdCard.js'
+import LikeButton from './components/LikeButton.js'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           birth={`${new Date('1988-05-11')}`}
           picture='https://randomuser.me/api/portraits/women/44.jpg'
       />
+      <LikeButton />
     </div>
   );
 }
